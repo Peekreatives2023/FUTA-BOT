@@ -60,7 +60,7 @@ li a{
 .image2{
   display: flex;
   justify-content: flex-end;
-  margin-top: -27%;
+  margin-top: -24%;
   margin-right: 20px;
 }
 
@@ -68,13 +68,9 @@ li a{
     margin-top: -10%;
 }
 
+
 @media screen and (max-width: 1200px){
     .h3{
-        color: white;
-        font-family: Arial, sans-serif;
-        font-weight: normal;
-        font-size: 30px ;
-       
+        font-size: 20px;
     }
-
 }
