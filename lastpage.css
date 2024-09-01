@@ -1,0 +1,62 @@
+.image3{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 40px;
+    margin-left: 320px;
+
+}
+
+/*.image3{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0%;
+    margin-bottom: 50%;
+}*/
+
+.input-submit{
+    position: relative;
+}
+
+.logo2{
+    width: 60px;
+    margin-left: 30px;
+    margin-top: 40px;
+}
+
+.welcome{
+    font-family: Arial, sans-serif;
+    font-size: 30px;
+    margin-left: 30px;
+}
+
+.input-submit{
+    position: relative;
+}
+
+.submit-btn{
+    width: 30%;
+    justify-content: center;
+    align-items: center;
+    margin-left: 450px;
+    height: 60px;
+    background: hsl(299, 95%, 40%);
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.input-submit label{
+    position: absolute;
+    top: 50%;
+    left: 49%;
+    color: white;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+    font-family: Arial, sans-serif;
+}
+
