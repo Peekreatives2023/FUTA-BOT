@@ -8,14 +8,6 @@
 
 }
 
-/*.image3{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 0%;
-    margin-bottom: 50%;
-}*/
-
 .input-submit{
     position: relative;
 }
@@ -61,3 +53,34 @@
     font-family: Arial, sans-serif;
 }
 
+@media (max-width: 1000px) {
+    .image3 {
+        margin-left: auto; /* Center the image */
+        margin-top: 20px; /* Adjust top margin for smaller screens */
+        width: 200px; /* Reduce image size */
+    }
+
+    .logo2 {
+        margin-left: 0; /* Align logo to the left */
+        margin-top: 20px; /* Reduce top margin */
+        width: 40px; /* Reduce logo size */
+    }
+
+    .welcome {
+        font-size: 24px; /* Reduce the font size for smaller screens */
+        margin-left: 0; /* Align welcome text to the left */
+        text-align: center; /* Center text on smaller screens */
+        padding: 10px 0; /* Add padding for spacing */
+    }
+
+    .submit-btn {
+        width: 80%; /* Make the button take up more width */
+        margin-left: auto; /* Center the button */
+        margin-right: auto;
+        height: 50px; /* Adjust button height */
+    }
+
+    .input-submit label {
+        left: 50%; /* Re-center the label */
+    }
+}
