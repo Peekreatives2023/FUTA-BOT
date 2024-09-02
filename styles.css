@@ -46,9 +46,6 @@ body{
     color: #222;
 }
 
-.input-field:focus{
-    width: 105%;
-}
 
 .input-submit{
     position: relative;

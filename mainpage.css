@@ -60,7 +60,7 @@ li a{
 .image2{
   display: flex;
   justify-content: flex-end;
-  margin-top: -24%;
+  margin-top: -26%;
   margin-right: 20px;
 }
 
@@ -68,9 +68,62 @@ li a{
     margin-top: -10%;
 }
 
+@media (max-width: 1000px) {
+    .navbar {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
 
-@media screen and (max-width: 1200px){
-    .h3{
-        font-size: 20px;
+    .navdiv {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .logo {
+        width: 50px; /* Reduce logo size for smaller screens */
+        margin-bottom: 15px;
+    }
+
+    ul {
+        padding-left: 0;
+        width: 100%;
+    }
+
+    li {
+        display: block; /* Stack menu items vertically */
+        margin: 10px 0;
+    }
+
+    li a {
+        font-size: 16px; /* Adjust font size for smaller screens */
+        padding: 10px 0;
+        display: block;
+        width: 100%;
+        text-align: left;
+    }
+
+    .h2 {
+        font-size: 32px; /* Adjust heading sizes */
+        padding-left: 15px;
+        padding-top: 60px;
+    }
+
+    .h3 {
+        font-size: 24px; /* Adjust subheading sizes */
+        padding-left: 15px;
+        padding-top: 15px;
+    }
+
+    .image2 {
+        justify-content: center; /* Center the image */
+        margin-top: 20px; /* Adjust margin for better layout */
+        margin-right: 0; /* Remove right margin */
+    }
+
+    .second div {
+        margin-top: 0; /* Adjust margin to fit better on smaller screens */
     }
 }
+
+
+    
