@@ -61,8 +61,13 @@
         padding: 20px;
     }
 
+    .last div{
+        margin-top: -35px;
+
+    }
+
     .image3 {
-        margin-left: -35px;
+        margin-left: auto;
         margin-right: auto;
         margin-top: 20px;
         padding-bottom: 20px;
