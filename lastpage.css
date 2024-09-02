@@ -55,49 +55,21 @@
 }
 
 @media (max-width: 1000px) {
-    body {
-        flex-direction: column;
-        justify-content: flex-start;
-        padding: 20px;
-    }
-
-    .last div{
-        margin-left: -35px;
-
-    }
-
     .image3 {
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 20px;
-        padding-bottom: 20px;
+      margin-left: 0;
+      margin-top: 0;
     }
-
+  
     .logo2 {
-        margin-left: auto;
-        margin-right: auto;
-        display: block;
-        text-align: center;
+      margin-left: 0;
     }
-
+  
     .welcome {
-        font-size: 24px;
-        margin-left: auto;
-        margin-right: auto;
-        text-align: center;
-        padding-top: 20px;
+      margin-left: 0;
     }
-
+  
     .submit-btn {
-        width: 80%;
-        margin-left: auto;
-        margin-right: auto;
-        display: block;
-        height: 60px;
+      margin-left: 0;
+      width: 80%;
     }
-
-    .input-submit label {
-        left: 50%;
-        transform: translate(-50%, -50%);
-    }
-}
+  }
