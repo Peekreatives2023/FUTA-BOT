@@ -118,3 +118,30 @@ body{
     text-decoration: none;
 }
 
+@media (max-width: 1000px) {
+    .signup-box, .Login-box {
+        width: 90%; /* Make the form take up more width on smaller screens */
+        height: auto; /* Allow height to be dynamic based on content */
+        padding: 20px; /* Reduce padding to fit smaller screens */
+    }
+
+    .signup-header, .Login-header {
+        font-size: 32px; /* Reduce the font size for smaller screens */
+        margin: 15px 0 30px 0; /* Adjust margins for better spacing */
+    }
+
+    .input-box .input-field {
+        height: 50px; /* Reduce input field height */
+        font-size: 16px; /* Adjust font size */
+        padding: 0 20px; /* Reduce padding */
+        margin-bottom: 12px; /* Reduce margin */
+    }
+
+    .submit-btn {
+        height: 50px; /* Adjust button height */
+    }
+
+    .Log-in-link, .sign-up-link {
+        font-size: 14px; /* Slightly reduce font size for links */
+    }
+}
