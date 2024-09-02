@@ -51,36 +51,48 @@
     transform: translate(-50%, -50%);
     cursor: pointer;
     font-family: Arial, sans-serif;
+
 }
 
 @media (max-width: 1000px) {
+    body {
+        flex-direction: column;
+        justify-content: flex-start;
+        padding: 20px;
+    }
+
     .image3 {
-        margin-left: auto; /* Center the image */
-        margin-top: 20px; /* Adjust top margin for smaller screens */
-        width: 200px; /* Reduce image size */
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+        padding-bottom: 20px;
     }
 
     .logo2 {
-        margin-left: 0; /* Align logo to the left */
-        margin-top: 20px; /* Reduce top margin */
-        width: 40px; /* Reduce logo size */
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        text-align: center;
     }
 
     .welcome {
-        font-size: 24px; /* Reduce the font size for smaller screens */
-        margin-left: 0; /* Align welcome text to the left */
-        text-align: center; /* Center text on smaller screens */
-        padding: 10px 0; /* Add padding for spacing */
+        font-size: 24px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        padding-top: 20px;
     }
 
     .submit-btn {
-        width: 80%; /* Make the button take up more width */
-        margin-left: auto; /* Center the button */
+        width: 80%;
+        margin-left: auto;
         margin-right: auto;
-        height: 50px; /* Adjust button height */
+        display: block;
+        height: 60px;
     }
 
     .input-submit label {
-        left: 50%; /* Re-center the label */
+        left: 50%;
+        transform: translate(-50%, -50%);
     }
 }
