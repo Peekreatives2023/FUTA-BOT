@@ -44,7 +44,7 @@
 .input-submit label{
     position: absolute;
     top: 50%;
-    left: 49%;
+    left: 48%;
     color: white;
     -webkit-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
@@ -98,3 +98,12 @@
       width: 100%
     }
   }
+
+  @media screen and (min-width: 1001px) {
+    .submit-btn{
+      width: 25%; /* Adjust button width for larger screens */
+      margin-left: 37.5%;
+    }
+  }
+   
+    
