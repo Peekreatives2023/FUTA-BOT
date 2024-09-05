@@ -6,13 +6,13 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <form class="login-form">
+    <form class="login-form" id="signupForm">
         <div class="Login-box">
             <div class="Login-header">
                 <header>SignUp</header>
             </div>
             <div class="input-box">
-                <input type="Name" class="input-field" placeholder="Name" autocomplete="off" required>
+                <input type="Name" id="nameField" class="input-field" placeholder="Name" autocomplete="off" required>
             </div>
             <div class="input-box">
                 <input type="password" class="input-field" placeholder="Password" autocomplete="off" required>
@@ -21,15 +21,30 @@
                 <input type="password" class="input-field" placeholder="Confirm password" autocomplete="off" required>
             </div>
             <div class="input-submit">
-                <button class="submit-btn" id="submit"></button>
-                <label for="submit">Login</label>
+                <!-- <button class="submit-btn" id="submit"></button>
+                <label for="submit">Login</label> -->
+                <button type="button" class="submit-btn" id="submit">Sign Up</button>
             </div>
             <div class="sign-up-link">
                 <p>Already have an account? <a href="Login.html">Login</a></p>
             </div>
         </div>
     </form>
-    <script src="index.js"></script>
+    
+    <script>
+        document.getElementById('submit').addEventListener('click', function() {
+            // Get the entered name
+            const name = document.getElementById('nameField').value;
+
+            // Check if name is not empty before routing
+            if (name) {
+                // Redirect to lastpage.html with the name as a query parameter
+                window.location.href = `lastpage.html?username=${encodeURIComponent(name)}`;
+            } else {
+                alert("Please enter your name.");
+            }
+        });
+    </script>
     
 </body>
 </html>
