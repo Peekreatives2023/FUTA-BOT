@@ -10,7 +10,8 @@
         <img src="Images/image 1.svg">
     </div>
     <section class="welcome">
-        <p>Welcome, Faith</p>
+        <!-- <p>Welcome, Faith</p> -->
+        <p id="welcomeMessage"></p>
     </section>
     <div class="last div">
         <img class="image3" src="Images/image4.svg">
@@ -19,5 +20,15 @@
         <button class="submit-btn" id="submit"></button>
         <label for="submit">Continue to Telegram</label>
     </div>
+
+    <script>
+        // Extract the name from the URL query parameters
+        const urlParams = new URLSearchParams(window.location.search);
+        const username = urlParams.get('username');
+
+        // Display the name in the welcome message
+        const welcomeMessage = document.getElementById('welcomeMessage');
+        welcomeMessage.textContent = `Welcome, ${username}`;
+    </script>
 </body>
 </html>
